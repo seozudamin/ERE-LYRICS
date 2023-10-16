@@ -1,0 +1,48 @@
+:root {
+
+    --color-brand: #f90000;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+
+body {
+    background: url(../images/bg.jpg);
+    color: var(--color-body);
+    font-family: var(--font-base), sans-serif;
+    overflow-x: hidden;
+}
+
+h1{
+    color: var(--color-heading);
+    font-weight: 400;
+}
+
+
+img {
+    width: 100%;
+}
+
+
+
+@media (min-width: 992px) {
+    /* CONTENT WRAPPER */
+    #content-wrapper {
+        padding-left: var(--sidbar-width);
+    }
+ 
+}
+
+
+.full-height {
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+    
+}
+
+
